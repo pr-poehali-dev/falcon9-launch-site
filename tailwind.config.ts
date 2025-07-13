@@ -19,6 +19,9 @@ export default {
 		},
 		extend: {
 			colors: {
+				'space-black': '#000000',
+				'space-blue': '#0066CC',
+				'space-red': '#FF4444',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -88,7 +91,10 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'rocket-launch': 'rocket-launch 2s ease-in-out infinite alternate',
+				'stars-twinkle': 'stars-twinkle 3s ease-in-out infinite',
+				'countdown-pulse': 'countdown-pulse 1s ease-in-out infinite'
 			}
 		}
 	},
