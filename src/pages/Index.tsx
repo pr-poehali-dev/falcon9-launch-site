@@ -80,7 +80,7 @@ const Index = () => {
               <Icon name="Play" size={20} className="mr-2" />
               Прямая трансляция
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-4 text-lg">
+            <Button size="lg" variant="outline" className="bg-white/10 backdrop-blur-md border-white/20 text-white hover:bg-white/20 px-8 py-4 text-lg">
               <Icon name="Info" size={20} className="mr-2" />
               О миссии
             </Button>
