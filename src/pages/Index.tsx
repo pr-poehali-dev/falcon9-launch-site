@@ -108,7 +108,7 @@ const Index = () => {
             <Card className="bg-white/5 border-white/20 backdrop-blur-sm">
               <CardContent className="p-6 text-center">
                 <Icon name="Rocket" size={48} className="mx-auto mb-4 text-space-blue" />
-                <h3 className="text-xl font-bold mb-2">Высота</h3>
+                <h3 className="text-xl font-bold mb-2 text-white">Высота</h3>
                 <p className="text-3xl font-bold text-space-blue mb-2">70 м</p>
                 <p className="text-gray-300">Полная высота ракеты с полезной нагрузкой</p>
               </CardContent>
@@ -117,7 +117,7 @@ const Index = () => {
             <Card className="bg-white/5 border-white/20 backdrop-blur-sm">
               <CardContent className="p-6 text-center">
                 <Icon name="Zap" size={48} className="mx-auto mb-4 text-space-blue" />
-                <h3 className="text-xl font-bold mb-2">Тяга</h3>
+                <h3 className="text-xl font-bold mb-2 text-white">Тяга</h3>
                 <p className="text-3xl font-bold text-space-blue mb-2">7,607 кН</p>
                 <p className="text-gray-300">Тяга 9 двигателей Merlin на уровне моря</p>
               </CardContent>
@@ -126,7 +126,7 @@ const Index = () => {
             <Card className="bg-white/5 border-white/20 backdrop-blur-sm">
               <CardContent className="p-6 text-center">
                 <Icon name="Package" size={48} className="mx-auto mb-4 text-space-blue" />
-                <h3 className="text-xl font-bold mb-2">Полезная нагрузка</h3>
+                <h3 className="text-xl font-bold mb-2 text-white">Полезная нагрузка</h3>
                 <p className="text-3xl font-bold text-space-blue mb-2">22,800 кг</p>
                 <p className="text-gray-300">Максимальная масса на низкую орбиту Земли</p>
               </CardContent>
@@ -153,7 +153,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="bg-white/5 border-white/20 backdrop-blur-sm">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-4 flex items-center">
+                <h3 className="text-xl font-bold mb-4 flex items-center text-white">
                   <Icon name="Target" size={24} className="mr-2 text-space-blue" />
                   Цель миссии
                 </h3>
@@ -165,7 +165,7 @@ const Index = () => {
 
             <Card className="bg-white/5 border-white/20 backdrop-blur-sm">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-4 flex items-center">
+                <h3 className="text-xl font-bold mb-4 flex items-center text-white">
                   <Icon name="MapPin" size={24} className="mr-2 text-space-blue" />
                   Место запуска
                 </h3>
