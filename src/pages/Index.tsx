@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
-import ParticlesBackground from '@/components/ui/particles';
+import FloatingParticles from '@/components/ui/floating-particles';
 
 const Index = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -33,8 +33,8 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-space-black to-gray-900 text-white relative overflow-hidden">
-      {/* Particles Background */}
-      <ParticlesBackground />
+      {/* Floating Particles Background */}
+      <FloatingParticles />
 
       {/* Hero Section */}
       <section className="relative z-10 min-h-screen flex items-center justify-center px-4">
