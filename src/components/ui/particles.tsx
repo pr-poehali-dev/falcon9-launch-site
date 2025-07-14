@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
-import type { Engine } from 'tsparticles';
-import Particles from 'react-particles';
-import { loadSlim } from 'tsparticles/slim';
+import Particles from '@tsparticles/react';
+import { loadSlim } from '@tsparticles/slim';
+import type { Engine } from '@tsparticles/engine';
 
 const ParticlesBackground = () => {
   const particlesInit = useCallback(async (engine: Engine) => {
