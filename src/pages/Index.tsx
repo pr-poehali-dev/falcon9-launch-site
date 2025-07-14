@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
+import ParticlesBackground from '@/components/ui/particles';
 
 const Index = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -32,20 +33,8 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-space-black to-gray-900 text-white relative overflow-hidden">
-      {/* Background Stars Effect */}
-      <div className="absolute inset-0">
-        {[...Array(50)].map((_, i) => (
-          <div
-            key={i}
-            className="absolute w-1 h-1 bg-white rounded-full animate-stars-twinkle"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 3}s`
-            }}
-          />
-        ))}
-      </div>
+      {/* Particles Background */}
+      <ParticlesBackground />
 
       {/* Hero Section */}
       <section className="relative z-10 min-h-screen flex items-center justify-center px-4">
